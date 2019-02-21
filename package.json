@@ -1,0 +1,24 @@
+{
+  "id": "ynab",
+  "name": "YNAB",
+  "version": "1.0.0",
+  "description": "You Need A Budget Application - ynab.com",
+  "main": "index.js",
+  "author": "Connor Petersen <cmpete@gmail.com>",
+  "license": "MIT",
+  "repository": "https://github.com/chisaipete/recipe-franz-ynab",
+  "config": {
+    "serviceURL": "https://app.youneedabudget.com/",
+    "serviceName": "YNAB",
+    "message": "YNAB",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "customURL": false,
+    "hasTeamID": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
